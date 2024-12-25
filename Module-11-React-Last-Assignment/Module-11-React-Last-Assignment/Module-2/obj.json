@@ -1,0 +1,18 @@
+{
+  "User": [
+    {
+      "id": "2",
+      "Name": "jayesh",
+      "Email": "jayeshojha2002@gmail.com",
+      "Contact": "9166774879",
+      "Address": "kota"
+    },
+    {
+      "id": 2,
+      "Name": "harsh",
+      "Email": "harsh8849@gmail.com",
+      "Contact": "3654432535",
+      "Address": "kota"
+    }
+  ]
+}
