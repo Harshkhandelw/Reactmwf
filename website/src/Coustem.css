@@ -109,3 +109,32 @@ select{
     margin: auto;
     margin-top: 10px;
 }
+.text{
+    text-align: start;
+    width: 60%;
+    margin: auto;
+}
+.Card{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    gap: 10px;
+}
+.borx{
+    border:1px solid black;
+    border-radius: 5px;
+    display: flex;
+    gap: 20px;
+}
+.plan{
+    height: 100px;
+}
+.row{
+    text-align: start ;
+    margin: 0px 10px;
+}
+.sear{
+    background-color: blue;
+    color: white;
+    height: 30px;
+}

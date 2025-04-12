@@ -1,7 +1,9 @@
 import React from 'react';
+// import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import background_image from './background_image.jpeg';
-import Carousel from 'react-bootstrap/Carousel';
-// Assuming ExampleCarouselImage is a component that you need to use for carousel images
+import airplan from './airplan.jpeg'
+import view from './view.png'
+
 
 function Content() {
   return (
@@ -34,36 +36,34 @@ function Content() {
             <input type='checkbox' id='flights-checkbox' />
             <label htmlFor='flights-checkbox'><h4>I’m looking for flights</h4></label>
           </div>
-          <div>
+          <div className='text'>
             <h4>Offers</h4>
             <p>Promotions, deals, and special offers for you</p>
           </div>
-          <div className='flexcard'>
-            <div className='row'>
-              <Carousel>
-                <Carousel.Item>
-                  {/* <ExampleCarouselImage text="First slide" /> */}
-                  <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  {/* <ExampleCarouselImage text="Second slide" /> */}
-                  <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  {/* <ExampleCarouselImage text="Third slide" /> */}
-                  <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-              </Carousel>
+          <div className='Card'>
+            <div className='borx'>
+              <div className='row'>
+                <h4>Fly away to your dream vacation</h4>
+                <p>Get inspired – compare and book flights with flexibility</p>
+                <button className='sear'>Search for flights</button>
+              </div>
+              <div>
+                <img src={airplan} className='plan' />
+              </div>
             </div>
+            <div className='borx'>
+              <div className='row'>
+                <h4>Planning a trip to the 2024 Summer Games?</h4>
+                <p>Brussels is a quick train ride from all the action</p>
+                <button className='sear'>Explore Brussels</button>
+              </div>
+              <div>
+                <img src={view} className='plan' />
+              </div>
+            </div>
+          </div>
+          <div>
+            
           </div>
         </div>
       </div>
